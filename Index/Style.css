@@ -1,0 +1,40 @@
+body{
+    font-size: 18px;
+    font=family: "Georgia", "Times New Roman", Times, serif;
+    line-height: 27px;
+    background: rgb(192, 163, 168);
+    margin: 0;
+    padding: 0;
+}
+
+a.navbar-brand {
+    font-size: 40px;
+    font-style: bold;
+    background: rgb(166, 235, 166);
+    color: white;
+}
+
+h1{
+    margin-top: 80px;
+    font: 56px;
+    color: rgb(61, 218, 165)
+}
+
+.container{
+    width: 1024px;
+    height: 80%;
+    margin-left: 50px;
+    background: white;
+    margin: 0. auto;   
+}
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    color: rgb(83, 78, 78);
+    text-align: center;
+}
