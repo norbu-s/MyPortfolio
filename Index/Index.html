@@ -9,28 +9,27 @@
      <style></style>
   </head>
     <body>
-            <nav class="navbar">
-              <a class="navbar-brand" href="#">Norbu Sherpa</a>
-                  <div class="topnav" id="myTopnav">
-                    <a href="file:///Users/norbu/Uni/MyPortfolio/Root/Portfolio/portfolio.html">About</a>
-                    <a href="#Portfolio">Portfolio</a>
-                    <a href="#Contact">Contact</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i></a>      
-                  </div>
-                </button> 
-              </nav>
-               <script>
-                function myFunction() {
-                  var x = document.getElementById("myTopnav");
-                  if (x.className === "topnav") {
-                    x.className += " responsive";
-                  } 
-                  else {
-                  x.className = "topnav";
-                  }
-                }
-                </script>
+      <nav class="navbar">
+        <a class="navbar-brand" href="#">Norbu Sherpa</a>
+       <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Portfolio</a>
+        <a href="#news">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+          <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
              <div class="container">
                 <section style="padding: 20px">
                   <h1>About Me</h1>
