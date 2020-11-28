@@ -1,6 +1,6 @@
 body{
     font-size: 18px;
-    font=family: "Georgia", "Times New Roman", Times, serif;
+    font-family: "Georgia", "Times New Roman", Times, serif;
     line-height: 27px;
     background: rgb(192, 163, 168);
     margin: 0;
@@ -91,4 +91,3 @@ footer{
       display: block;
       text-align: left;
     }
-
