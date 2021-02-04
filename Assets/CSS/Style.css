@@ -2,10 +2,7 @@ body{
     font-size: 18px;
     font-family: "Georgia", "Times New Roman", Times, serif;
     line-height: 27px;
-<<<<<<< HEAD
-=======
     background: white;
->>>>>>> 1d764f0929f5017a82f7e5e55f9f57a2211cbd14
     margin: 0;
     padding: 0;
 }
@@ -80,7 +77,21 @@ footer{
   width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .container {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .container, .topnav, .navbar {
+    width: 100%;
+
+@media screen and (max-width: 500px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -88,7 +99,7 @@ footer{
     }
   }
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;

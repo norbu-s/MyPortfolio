@@ -1,13 +1,4 @@
 body{
-<<<<<<< HEAD
-  font-size: 18px;
-  font=family: "Georgia", "Times New Roman", Times, serif;
-  line-height: 27px;
-  background: grey;
-  margin: 0;
-  padding: 0;
-  background-image: url('/Users/norbu/Uni/MyPortfolio/docs/Assets/Images/pexels-photo-747964.jpeg');
-=======
     font-size: 18px;
     font=family: "Georgia", "Times New Roman", Times, serif;
     line-height: 27px;
@@ -15,20 +6,13 @@ body{
     margin: 0;
     padding: 0;
     background-image: url('/Users/norbu/Uni/MyPortfolio-2/docs/Assets/Images/pexels-photo-747964.jpeg');
->>>>>>> 645c5bc8cfe197ae628a7bdb03487efe588698ac
 
 }
 
 .navbar-brand {
-<<<<<<< HEAD
-color:white;
-font-size: xx-large;
-font-weight: bold;
-=======
   color:white;
   font-size: xx-large;
   font-weight: bold;
->>>>>>> 645c5bc8cfe197ae628a7bdb03487efe588698ac
 }
 
 .topnav {
@@ -52,22 +36,14 @@ color: black;
 }
 
 .topnav a.active {
-<<<<<<< HEAD
-color: white;
-=======
   color: white;
->>>>>>> 645c5bc8cfe197ae628a7bdb03487efe588698ac
 }
 
 .topnav .icon {
 display: none;
 }
 
-<<<<<<< HEAD
-.container{
-=======
  .container{
->>>>>>> 645c5bc8cfe197ae628a7bdb03487efe588698ac
 margin-top: 120px;;
 width: 1024px;
 height: 200px;
@@ -82,28 +58,12 @@ color:Black;
 }
 
 .btn btn-primary{
-<<<<<<< HEAD
-  color:white;
-  width: 180px;
-=======
     color:white;
     width: 180px;
->>>>>>> 645c5bc8cfe197ae628a7bdb03487efe588698ac
 }
 
 
 footer{
-<<<<<<< HEAD
-background:#333;
-color: grey;
-margin-top:320px;
-padding:10px;
-font-size: 17px;
-font-weight: bold;
-text-align: center;
-letter-spacing: 1px;
-width: 120%;
-=======
   background:#333;
   color: grey;
   margin-top:320px;
@@ -113,7 +73,6 @@ width: 120%;
   text-align: center;
   letter-spacing: 1px;
   width: 120%;
->>>>>>> 645c5bc8cfe197ae628a7bdb03487efe588698ac
 }
 
 @media screen and (max-width: 600px) {
