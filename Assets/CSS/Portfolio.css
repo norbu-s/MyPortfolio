@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 body {
     margin:0;
     font-family: 'Josefin Sans', sans-serif;
     background:grey;
-    background-image: url('/Users/norbu/Uni/MyPortfolio/docs/Assets/Images/pexels-hasan-albari-1229861.jpg');
+    background-image: url('docs/Assets/Images/pexels-hasan-albari-1229861.jpg');
 }
 
 .navbar-brand {
@@ -92,84 +91,12 @@ body {
     }
 
 .row{
-=======
-    body {
-        margin:0;
-        font-family: 'Josefin Sans', sans-serif;
-        background:grey;
-        background-image: url('/Users/norbu/Uni/MyPortfolio-2/docs/Assets/Images/pexels-photo-1229861.jpeg');
-    }
-
-    .navbar-brand {
-        color:white;
-        font-size: xx-large;
-        font-weight: bold;
-      }
-
-    .topnav {
-        overflow: hidden;
-        background-color: #333;
-        margin-left: 900px;
-    }
-    
-    .topnav a {
-        float: right;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-    
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-    
-    .topnav a.active {
-        color: white;
-    }
-    
-    .topnav .icon {
-        display: none;
-    }
-
-    .Porfolio{
-        margin-left: 100px;
-        padding-left: 50px;
-    }
-    
-    .container{
-        margin-top: 50px;
-        margin-bottom:20px;
-        width: 1024px;
-        height: 200px;
-        margin-left: 50px;
-        margin-right: 400px;
-        margin: 0. auto;   
-        } 
-
-    #github {
-        margin-right:1300px;
-        width: 1024px;
-        height: 500px;
-        margin: 40px auto;
-    }
-
-
-    .row{
->>>>>>> 645c5bc8cfe197ae628a7bdb03487efe588698ac
         margin-right: 50px;
         padding: 0;
         overflow: auto;
     }
 
-<<<<<<< HEAD
 .gallery{
-=======
-    .gallery{
->>>>>>> 645c5bc8cfe197ae628a7bdb03487efe588698ac
         padding-right:50px;
         margin-left: 50px;
         margin-right: 150px;
@@ -210,62 +137,4 @@ footer{
             .container{
                 width: 100%;
     }
-<<<<<<< HEAD
 }
-=======
-
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-        }
-
-    .row{
-            margin-right: 50px;
-            padding: 0;
-            overflow: auto;
-        }
-
-    .gallery{
-            padding-right:50px;
-            margin-left: 50px;
-            margin-right: 150px;
-            margin-bottom:20px;
-            width: 85%;
-            overflow: auto;
-    }
-    
-    footer{
-        background:#333;
-        color: grey;
-        margin-top:320px;
-        padding:10px;
-        font-size: 17px;
-        font-weight: bold;
-        text-align: center;
-        letter-spacing: 1px;
-        width: 100%;
-      }
-
-    @media screen and (max-width: 600px) {
-            .topnav a:not(:first-child) {display: none;}
-            .topnav a.icon {
-            float: right;
-            display: block;
-        }
-    }
-        
-    @media screen and (max-width: 600px) {
-            .topnav.responsive {position: relative;}
-            .topnav.responsive .icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-    }
-
-     @media screen and (max-width:768) {
-                .container{
-                    width: 100%;
-        }
-    }
->>>>>>> 645c5bc8cfe197ae628a7bdb03487efe588698ac
