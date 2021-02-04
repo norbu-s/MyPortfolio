@@ -2,7 +2,7 @@ body {
     margin:0;
     font-family: 'Josefin Sans', sans-serif;
     background:grey;
-    background-image: url('docs/Assets/Images/pexels-hasan-albari-1229861.jpg');
+    background-image: url('/Users/norbu/Uni/MyPortfolio/docs/Assets/Images/pexels-photo-1229861.jpeg');
 }
 
 .navbar-brand {
