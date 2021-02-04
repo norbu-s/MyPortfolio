@@ -1,6 +1,6 @@
-  <!DOCTYPE html>
-  <html>
-    <head>
+<!DOCTYPE html>
+<html>
+  <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Portfolio</title>
@@ -8,73 +8,63 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="./Assets/reset.css">
       <link href="../CSS/portfolio.css" rel="stylesheet">  
-     </head>
-      <body>
-      <nav class="navbar">
-        <a class="navbar-brand" href="#">Norbu Sherpa</a>
-      <div class="topnav" id="myTopnav">
-        <a href="https://norbu-s.github.io/FirstPortfolio.github.io/Index.html"class="active">Home</a>
-        <a href="./portfolio.html">Portfolio</a>
-        <a href="./contact.html">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-          <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-      </script>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h1>About Me</h1>
-      </div>
+  </head>
+<body>
+<nav class="navbar">
+  <a class="navbar-brand">Norbu Sherpa</a>
+    <div class="topnav" id="myTopnav">
+      <a href=".docs/Assets/pages/Index.html"class="active">Home</a>
+      <a href="./portfolio.html">Portfolio</a>
+      <a href="./contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-
-    <div class="row">
-      <div class="col-sm-6">
-    <div class="gallery">
-      <img src="../Images/dog1.jpeg" width=350px height=350px alt= "photo">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+        <a class="nav-link active" href="/docs/Assets/pages/Index.html">Home</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="docs/Assets/pages/portfolio.html" >Portfolio</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="docs/Assets/pages/contact.html">Contact</a>
+        </li>
+        </ul>
     </div>
-    </div> 
-    <div class="col-sm-6">
-      <div class="gallery">
-        <img src="../Images/dog2.jpeg"  width=350px height=350px alt= "photo">
-      </div>
-    </div> 
+</nav>
+<div class="container">
+  <div class="Portfolio">
+    <section id="github-info">
+      <h1>Portfolio</h1>
+      <br>
+         <h3><strong>GitHub Profile :</strong><a href="https://github.com/norbu-s"> www.github.com/norbu-s</a></h3>  
+         <br>
+        </section>
+         <h1> Projects</h1>
+         <br>
+         <ul>
+         <li>
+          <h3><strong>Otaku:</strong><a href="https://norbu-s.github.io/Covid-Safe-Restaurant/"> Project Otaku</a></h3>
+         </li>
+         <br>
+         <li>
+           <h3><strong>Coding Quiz:</strong><a href="https://norbu-s.github.io/Quiz-App.github.io/Index.html"> Coding Quiz</a></h3>
+         </li>
+         <br>
+         <li>
+           <h3><strong>Weather Forecast:</strong><a href="https://norbu-s.github.io/Weather-App2/Index.html"> Weather Forcast</a></h3>
+         </li>
+      </ul>
   </div>
-
-  <div class="row">
-    <div class="col-sm-6">
-  <div class="gallery">
-    <img src="../Images/dog3.jpeg"  width=350px height=350px alt= "photo">
-  </div>
-  </div> 
-  <div class="col-sm-6">
-    <div class="gallery">
-      <img src="../Images/dog5.jpeg"  width=350px height=350px alt= "photo">
-    </div>
-  </div> 
-  </div>
-  <div class="row">
-    <div class="col-sm-6">
-  <div class="gallery">
-    <img src="../Images/Self.jpeg" width=350px height=350px alt= "photo">
-  </div>
-  </div> 
-  <div class="col-sm-6"></div>
-  </div>
-  </div>    
-      
-  <footer>
-    <p>@Copyright - Norbu Sherpa</p>
-  </footer>
+</div>
+    <footer>
+        <p>@Copyright - Norbu Sherpa</p>
+    </footer>
 </body>
 </html>
