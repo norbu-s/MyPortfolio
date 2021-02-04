@@ -15,6 +15,9 @@ body{
 }
 
 .topnav {
+  position:fixed;
+  right:0;
+  top:0;
   overflow: hidden;
   background-color: #333;
   margin-left: 900px;
@@ -45,7 +48,7 @@ body{
 
 .container{
 margin-top: 100px;;
-width: 1024px;
+width: 750px;
 height: 80%;
 margin-left: 50px;
 margin-right: 400px;
@@ -53,6 +56,11 @@ background: white;
 margin: 0. auto;   
 }
 
+.Skill {
+  float: left;
+  font-size: large;
+
+}
 h1{
 font-size: 40px;
 color:rgb(55, 211, 203);

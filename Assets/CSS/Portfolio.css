@@ -12,10 +12,13 @@ body {
   }
 
 .topnav {
+    position:fixed;
+    right:0;
+    top:0;
     overflow: hidden;
     background-color: #333;
     margin-left: 900px;
-}
+  }
 
 .topnav a {
     float: right;

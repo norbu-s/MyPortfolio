@@ -10,14 +10,18 @@ body{
 }
 
 .navbar-brand {
-  color:white;
+  color:Black;
   font-size: xx-large;
   font-weight: bold;
 }
 
 .topnav {
-overflow: hidden;
-background-color: #333;
+  position:fixed;
+  right:0;
+  top:0;
+  overflow: hidden;
+  background-color: #333;
+  margin-left: 900px;
 }
 
 .topnav a {
