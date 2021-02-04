@@ -8,6 +8,9 @@ body{
 }
 
 .navbar-brand {
+  position: fixed;
+  top:0;
+  left:0;
   color:white;
   font-size: xx-large;
   font-weight: bold;
@@ -57,7 +60,7 @@ margin: 0. auto;
 }
 
 .Skill {
-  float: left;
+  margin-top: 100px;
   font-size: large;
 
 }

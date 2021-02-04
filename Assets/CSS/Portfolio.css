@@ -1,4 +1,5 @@
 body {
+    color:white;
     margin:0;
     font-family: 'Josefin Sans', sans-serif;
     background:grey;
@@ -6,9 +7,10 @@ body {
 }
 
 .navbar-brand {
-    color:white;
-    font-size: xx-large;
+    color:blueviolet
+    font-size: Large;
     font-weight: bold;
+
   }
 
 .topnav {
@@ -44,27 +46,24 @@ body {
 }
 
 .Porfolio{
-    margin-left: 100px;
-    padding-left: 50px;
-}
-
-.container{
-    margin-top: 50px;
-    margin-bottom:20px;
-    width: 1024px;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    font-size:Large;
+    width: 300px;
     height: 200px;
-    margin-left: 50px;
-    margin-right: 400px;
-    margin: 0. auto;   
-    } 
-
-#github {
-    margin-right:1300px;
-    width: 1024px;
-    height: 500px;
-    margin: 40px auto;
+    margin-left: 50px; 
 }
-
+ 
+ .Skill {
+    font-size: small;
+    position: relative;
+    right:0;
+    top:40px;
+    padding:15px;
+    float:left
+      }
 
 .row{
     margin-right: 50px;
@@ -113,13 +112,13 @@ footer{
     color: grey;
     margin-top:100px;
     padding:10px;
-    font-size: 17px;
+    font-size: 10px;
     font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
     width: 100%;
     position:fixed;
-    left:0;
+    height:25px;
     bottom:0;
   }
 
