@@ -2,6 +2,10 @@ body{
     font-size: 18px;
     font-family: "Georgia", "Times New Roman", Times, serif;
     line-height: 27px;
+<<<<<<< HEAD
+=======
+    background: white;
+>>>>>>> 1d764f0929f5017a82f7e5e55f9f57a2211cbd14
     margin: 0;
     padding: 0;
 }
