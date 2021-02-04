@@ -7,10 +7,12 @@ body {
 }
 
 .navbar-brand {
-    color:blueviolet
-    font-size: Large;
+    position: fixed;
+    top:0;
+    left:0;
+    color:black;
+    font-size: xx-large;
     font-weight: bold;
-
   }
 
 .topnav {
@@ -46,10 +48,11 @@ body {
 }
 
 .Porfolio{
+    margin-top: 100px;
     padding: 15px;
-    position: absolute;
+    /* position: absolute;
     left: 0;
-    top: 40px;
+    top: 100px; */
     font-size:Large;
     width: 300px;
     height: 200px;
